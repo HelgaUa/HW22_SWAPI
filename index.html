@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="./build/app.js"></script>
+    <link rel="stylesheet" href="build/main.css">
+    <title>Document</title>
+</head>
+<body>
+
+
+<label for="basic-url">SWAPI</label>
+<div class="js--wrapper input-group mb-3">
+    <div class="input-group-prepend">
+        <span class="input-group-text" id="basic-addon3">https://swapi.dev/api/</span>
+    </div>
+    <input type="text" class="js--input-field form-control" id="basic-url" aria-describedby="basic-addon3">
+    <button class="btn btn-outline-secondary js--input-btn" type="button" id="button-addon2">
+        Get info
+        <span class="js--spinner-border spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+    </button>
+</div>
+<pre class="js--resultField">
+    <h5>
+        <span class="js--controller badge bg-secondary">controller</span>
+        <span class="js--id badge bg-secondary">id</span>
+    </h5>
+    <p class="js--info"></p>
+</pre>
+</body>
+</html>
